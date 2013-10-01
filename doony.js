@@ -100,7 +100,7 @@ jQuery(function($) {
     var domain = getSubdomain(window.location.hostname);
     doonyTitleLink.html("<div id='doony-title'>" + domain + "</div>");
 
-    var color = colors[Math.abs(hashCode(domain)) % colors.length];
+    var color = colors[0];
     $("#top-panel").css('background-color', color);
 
     // Remove icons from the left hand menu and strip nbsp's
