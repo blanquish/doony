@@ -1,7 +1,7 @@
 jQuery(function($) {
 
     var colors = [
-        '#C02942', // a red
+        '#f90000', // a red
         '#4ecdc4', // a bright green blue
         '#d95b43', // orange
         '#556270', // a slate color
