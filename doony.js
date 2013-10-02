@@ -14,7 +14,7 @@ jQuery(function($) {
         if (parts.length <= 2) {
             return parts.join(".");
         } else {
-            return parts.slice(0, -2).join(".");
+            return parts.slice(0).join(".");
         }
     };
 
